@@ -12,6 +12,14 @@ config LV_DPI_DEF
 config LV_Z_BITS_PER_PIXEL
     default 1
 
+config NICE_VIEW_LEFT
+    bool "Enable left-side Nice View display"
+    default n
+
+config NICE_VIEW_RIGHT
+    bool "Enable right-side Nice View display"
+    default n
+
 choice LV_COLOR_DEPTH
     default LV_COLOR_DEPTH_1
 endchoice
